@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,400;6..12,500;6..12,600&family=Poppins:ital,wght@0,300;0,400;1,300&family=Roboto:ital,wght@0,100;0,300;1,300;1,500&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap'); 
+
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: 'Jost', sans-serif;
+} 
+
+body{
+    background-color: rgb(122, 182, 162) !important; 
+   
+}  
+
+.container{
+    height: 100vh; 
+    display: flex;  
+    align-items: center ; 
+    justify-content: center; 
+} 
+
+.card{
+    min-height: 400px; 
+    min-width: 350px !important;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px; 
+}
+
